@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<link rel="stylesheet" href="homeStyle.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+<header>
+	<div class="w3-bar w3-white" id="barTop" id="holdTop">
+	  <button href="#" class="w3-bar-item w3-button" class="w3-button w3-teal w3-xlarge" onclick="w3_open()">☰</button>
+	  <a id="miniLogo" class="w3-bar-item w3-button">TDTU Learning</a>
+	  <a href="login.html" class="w3-bar-item w3-button w3-right" id="logOut">X Đăng xuất</a>
+	  <a href="join.html" class="w3-bar-item w3-button w3-right" id="joinIn">+ Tham gia lớp học</a>
+	  
+	  
+	</div>
+</header>
+
+
+<body>
+<div class="w3-sidebar w3-bar-block" style="display:none" id="mySidebar">
+  <button onclick="w3_close()" class="w3-bar-item w3-button w3-large">Close &times;</button>
+  <a href="#" class="w3-bar-item w3-button">Lớp học</a>
+  <a href="#" class="w3-bar-item w3-button">Lịch</a>
+</div>
+
+
+
+
+
+</body>
+<script>
+function w3_open() {
+  document.getElementById("mySidebar").style.width = "16%";
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+</html>

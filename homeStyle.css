@@ -1,0 +1,14 @@
+#holdTop{
+	position: fixed;
+  	top: 0;
+  	width: 100%;
+  	
+}
+#logOut{
+	background-color: #ff0000;
+	color: white
+}
+#joinIn{
+	background-color: green;
+	color: white
+}
